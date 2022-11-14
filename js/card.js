@@ -41,7 +41,7 @@ function hasDiscount(product) {
     return (
         `<p class="btn btn-lg btn-desct">
             <span class="desct"> 
-                ${productdiscount}% 
+                ${product.discount}% 
             </span> 
             off
         </p>`
