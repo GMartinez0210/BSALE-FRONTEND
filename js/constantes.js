@@ -1,0 +1,1 @@
+export const host = "https://bsale-backend-test-2022.herokuapp.com"
