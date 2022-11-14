@@ -6,6 +6,7 @@ import { nothing } from "./nothing.js"
 
 const searchForm = document.getElementById("search-form")
 
+/* A function that is called when the form is submitted. */
 searchForm.addEventListener("submit", event => {
     event.preventDefault()
 

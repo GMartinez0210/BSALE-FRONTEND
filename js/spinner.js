@@ -1,3 +1,7 @@
+/**
+ * It takes a selector as an argument and then it creates a spinner element and appends it to the DOM.
+ * @param selector - The selector of the element where the spinner will be displayed.
+ */
 export function spinnerElement(selector) {
     const location = document.querySelector(selector)
 

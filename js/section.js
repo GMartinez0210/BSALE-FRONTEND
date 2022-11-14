@@ -4,6 +4,11 @@ import { spinnerElement } from "./spinner.js"
 import { card } from "./card.js"
 import { nothing } from "./nothing.js"
 
+
+/**
+ * It fetches data from an API, then it creates a card for each product, and finally it appends the
+ * cards to the DOM.
+ */
 export function section() {
     const url = host+"/api/products"
 

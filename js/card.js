@@ -1,3 +1,9 @@
+/**
+ * It takes a product object as an argument and returns a string of HTML code that represents a card
+ * with the product's information.
+ * @param product - {
+ * @returns A string of HTML code.
+ */
 export function card(product) {
     return (
         `<div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-3 py-5 h-100">
@@ -21,6 +27,12 @@ export function card(product) {
     )
 }
 
+/**
+ * If the product has a discount, return a string with the discount percentage and the word "off".
+ * Otherwise, return an empty string.
+ * @param product - the product object
+ * @returns A string of HTML.
+ */
 function hasDiscount(product) {
     if(!product.discount) {
         return ""
@@ -29,7 +41,7 @@ function hasDiscount(product) {
     return (
         `<p class="btn btn-lg btn-desct">
             <span class="desct"> 
-                ${product.discount}% 
+                ${productdiscount}% 
             </span> 
             off
         </p>`

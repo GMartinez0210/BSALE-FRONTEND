@@ -6,6 +6,9 @@ import { section } from "./section.js"
 import { nothing } from "./nothing.js"
 
 
+/**
+ * It filters the products by category
+ */
 export function filter() {
     const navItems = document.querySelectorAll(".categoria-item")
 
